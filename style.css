@@ -530,10 +530,9 @@ body {
 
 
 @media(min-width:320px) and (max-width:480px){
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     #main{
-        font-family: "Montserrat", sans-serif;
+        font-family: "Poppins", sans-serif;
     }
     
     #nav-mid, #nav-right{
@@ -659,5 +658,124 @@ body {
         margin: 8vw 0;
     }
 
+    #page-2-mobile>h4{
+        color: #F85E9F;
+        font-weight: 600;
+        margin-top: 20vw;
+        text-transform: uppercase;
+        letter-spacing: 0.8vw;
+    }
 
+    #page-2-mobile>h1{
+        margin-top: 5vw;
+    }
+    .mob3box{
+        border: 1px solid #0000000c;
+        margin: 6vw 0;
+        border-radius: 4vw;
+        padding: 4vw 5vw;
+        line-height: 7vw;
+        background-color: #fff;
+    }
+    .mob3box>img{
+        margin: 4vw 0;
+    }
+    .mob3box>p{
+        margin: 6vw 0 4vw 0;
+        color: #00000084;
+    }
+
+    #page-3-mobile{
+        display: block;
+        text-align: center;
+    }
+
+    #page-3-mobile>h4{
+        color: #F85E9F;
+        font-weight: 600;
+        margin-top: 12vw;
+        text-transform: uppercase;
+        letter-spacing: 0.8vw;
+    }
+    #page-3-mobile>h1{
+        margin-top: 3vw;
+    }
+    #lrArrow{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 6vw;
+        padding: 0 4vw;
+    }
+    #lrArrow>i{
+        font-size: 4vw;
+        background-color: #fff;
+        color: #000;
+        padding: 6vw;
+        border-radius: 50%;
+        box-shadow: 2px 5px 30px -15px #000;
+    }
+    .box3grid{
+        border: 1px solid #00000025;
+        margin: 6vw 3vw;
+        text-align: start;
+        overflow: hidden;
+        border-radius: 8vw;
+        box-shadow: 2px 14px 70px -30px #0000004d;
+    }
+    .box3grid-part2{
+        padding: 3vw 5vw;
+        line-height: vw;
+        padding-right: 19vw;
+    }
+    .box3grid-part2>h3{
+        margin-top: 3vw;
+    }
+    .box3grid-part2>p{
+        margin-top: 4vw;
+        color: #000000b1;
+    }
+
+    .box3gridStar{
+        margin-top: 6vw;
+        display: flex;
+        align-items: center;
+        gap: 1vw;
+    }
+
+    #page-4-mobile{
+        display: block;
+        text-align: center;
+        padding: 2vw 3vw;
+    }
+    #page-4-mobile>img{
+        margin-top: 16vw;
+    }
+    #page-4-mobile>h4{
+        color: #F85E9F;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top: 12vw;
+        letter-spacing: 0.8vw;
+    }
+    #page-4-mobile>h1{
+        margin-top: 4vw;
+    }
+    #page-4-mobile>p{
+        color: #0000009a;
+        margin-top: 4vw;
+        padding: 0 6vw;
+    }
+    .box4page4{
+        border: 1px solid #00000022;
+        margin: 6vw 6vw;
+        padding: 9vw 6vw;
+        border-radius: 4vw;
+    }
+    .box4page4>h1{
+        color: #FF5722;
+    }
+    .box4page4>p{
+        color: #000000b8;
+        margin-top: 3vw;
+    }
 }
